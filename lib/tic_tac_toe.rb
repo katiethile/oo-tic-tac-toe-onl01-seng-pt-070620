@@ -41,6 +41,6 @@ class TicTacToe
   end 
   
   def turn
-    board.count {|character| 
+    board.count {|character| character =="X" ||
 end 
 end 
