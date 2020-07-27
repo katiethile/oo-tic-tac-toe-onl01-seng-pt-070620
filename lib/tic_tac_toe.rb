@@ -41,6 +41,6 @@ class TicTacToe
   end 
   
   def turn
-    
+    board.count
 end 
 end 
