@@ -40,7 +40,7 @@ class TicTacToe
     index.between?(0,8) && !position_taken?(index)
   end 
   
-  def turn
+  def turn_count
     board.count {|character| character =="X" || character == "O"}
 end 
 end 
