@@ -112,3 +112,6 @@ def play
 end
 
 end
+
+game = TicTacToe.new
+game.play
