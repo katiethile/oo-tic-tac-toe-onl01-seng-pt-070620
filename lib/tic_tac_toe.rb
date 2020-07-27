@@ -33,6 +33,6 @@ class TicTacToe
   end
   
   def position_taken?
-    board.all? {|position| position == "X" || position == "O"}
+    board.each do  {|position| position == "X" || position == "O"}
 end 
 end 
