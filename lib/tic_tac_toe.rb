@@ -34,7 +34,7 @@ class TicTacToe
   
   def position_taken?
     board.all? |position| 
-    if position == "X" || position == "O"}
+    if position == "X" || position == "O"
       return true 
     else 
       false 
