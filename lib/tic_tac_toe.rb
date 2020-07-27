@@ -80,4 +80,3 @@ def full?(board)
   @board.all?{|occupied| occupied != " "}
 end
 end 
-end 
