@@ -74,7 +74,6 @@ def won?
     end
       false
   end
-end
 
 def full?(board)
   @board.all?{|occupied| occupied != " "}
