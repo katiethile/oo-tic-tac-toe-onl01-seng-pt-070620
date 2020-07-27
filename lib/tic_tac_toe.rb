@@ -32,7 +32,7 @@ class TicTacToe
    board[index] = player
   end
   
-  def position_taken?(index_i)
-    ((@board[index_i] == "X") || (@board[index_i] == "O"))
+  def position_taken?(index_value)
+    ((@board[index_value] == "X") || (@board[index_value] == "O"))
   end
 end 
