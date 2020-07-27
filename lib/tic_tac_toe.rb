@@ -51,4 +51,6 @@ end
     "O"
   end
 end 
+
+  def won?
 end 
