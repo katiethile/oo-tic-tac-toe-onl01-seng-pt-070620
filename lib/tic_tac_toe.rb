@@ -40,13 +40,6 @@ class TicTacToe
     index.between?(0,8) && !position_taken?(index)
   end 
   
-  def turn(board)
-   counter = 0
-   board.each do |spaces|
-      if spaces == "X" || spaces == "O"
-         counter += 1
-      end
-   end
-   counter
-end
-end 
+  def turn
+    
+  end 
