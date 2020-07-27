@@ -76,7 +76,7 @@ def won?
   end
 end 
 
-def full?(board)
-   board.all? {|i| i == "X" || i == "O"}
+def full?
+  @board.all?{|occupied| occupied != " "}
 end
 end 
